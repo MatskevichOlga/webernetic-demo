@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matskevich Webernetic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <div class="demo">
+          <div class="demo__content">
+            <div class="demo__content-wrapper">
+              <div class="demo__title">
+                <h1>Демо-версия</h1>
+              </div>
+              <div class="demo__text">
+                <p>
+                  За 18 лет деятельности было реализовано более 500 крупных, а
+                  так же, не менее 2500 средних и малых проектов. Используя
+                  знания и накопленный опыт мы можем предложить
+                </p>
+              </div>
+              <div class="demo__butoon">
+                <a href="#" id="try-demo" class="primary-button button icon"
+                  >Попробовать бесплатно<svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 7H17V17"
+                      stroke="#1F4284"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M7 17L17 7"
+                      stroke="#1F4284"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="demo__img">
+            <img src="./assets/images/image_comp.png" alt="Computer" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal-popup">
+      <div class="modal-popup__wrapper">
+        <div class="modal-form">
+          <form id="enter-form" action="/" method="get">
+            <div class="form-row">
+              <a href="#" class="btn-close"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 6L6 18"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6 6L18 18"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="form-row">
+              <h2>Войти в систему</h2>
+            </div>
+            <div class="form-row">
+              <input
+                type="text"
+                placeholder="Email/Телефон"
+                required
+                name="mail"
+                id="mail"
+              />
+            </div>
+            <div class="form-row">
+              <input
+                type="password"
+                placeholder="Пароль"
+                required
+                name="password"
+                id="password"
+              />
+            </div>
+            <div class="form-row">
+              <label for="remember">
+                <input type="checkbox" name="remember" id="remember" />
+                Запомнить меня
+              </label>
+            </div>
+            <div class="form-row">
+              <a href="#" id="support">Восстановить</a>
+            </div>
+            <div class="form-row">
+              <button id="entry" class="button primary-button" type="submit">
+                Войти
+              </button>
+            </div>
+            <div class="form-row">
+              <button
+                id="register"
+                class="button secondary-button"
+                type="submit"
+              >
+                Зарегестрироваться
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
